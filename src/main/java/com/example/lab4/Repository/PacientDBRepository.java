@@ -22,7 +22,7 @@ public class PacientDBRepository extends MemoryRepo<Pacient>{
 
     private void Connect(){
         SQLiteDataSource ds = new SQLiteDataSource();
-        String JDBC_URL = "jdbc:sqlite:D:\\User\\UBB\\MAP\\a4-kevinscrg\\lab4\\Cabinet.sqlite";
+        String JDBC_URL = "jdbc:sqlite:Cabinet.sqlite";
         ds.setUrl(JDBC_URL);
 
         try {
